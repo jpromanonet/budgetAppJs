@@ -16,3 +16,9 @@ class UI {
     this.itemID = 0;
   }
 }
+
+function eventListeners() {}
+
+document.addEventListener("DOMContentLoaded", function () {
+  eventListeners;
+});
