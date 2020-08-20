@@ -31,7 +31,9 @@ function eventListeners() {
   });
 
   // Expense form submit
-  expenseForm.addEventListener("submit", function () {});
+  expenseForm.addEventListener("submit", function () {
+    event.preventDefault();
+  });
 
   // Expense click
   expenseList.addEventListener("submit", function () {});
