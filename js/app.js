@@ -33,6 +33,7 @@ function eventListeners() {
   // Budget form submit
   budgetForm.addEventListener("submit", function () {
     event.preventDefault();
+    ui.submitBudgeForm();
   });
 
   // Expense form submit
