@@ -26,7 +26,9 @@ function eventListeners() {
   const ui = new UI();
 
   // Budget form submit
-  budgetForm.addEventListener("submit", function () {});
+  budgetForm.addEventListener("submit", function () {
+    event.preventDefault();
+  });
 
   // Expense form submit
   expenseForm.addEventListener("submit", function () {});
