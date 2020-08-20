@@ -29,7 +29,7 @@ function eventListeners() {
   budgetForm.addEventListener("submit", function () {});
 
   // Expense form submit
-  budgetForm.addEventListener("submit", function () {});
+  expenseForm.addEventListener("submit", function () {});
 
   // Expense click
   budgetForm.addEventListener("submit", function () {});
