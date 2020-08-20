@@ -32,7 +32,7 @@ function eventListeners() {
   expenseForm.addEventListener("submit", function () {});
 
   // Expense click
-  budgetForm.addEventListener("submit", function () {});
+  expenseList.addEventListener("submit", function () {});
 }
 
 document.addEventListener("DOMContentLoaded", function () {
