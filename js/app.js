@@ -15,6 +15,11 @@ class UI {
     this.itemList = [];
     this.itemID = 0;
   }
+
+  // Submit budget method
+  submitBudgeForm() {
+    console.log("Hello from ES6");
+  }
 }
 
 function eventListeners() {
