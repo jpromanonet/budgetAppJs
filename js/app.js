@@ -22,6 +22,10 @@ class UI {
     if (value === "" || value < 0) {
       this.budgetFeedback.classList.add("showItem");
       this.budgetFeedback.innerHTML = `<p>value cannot be emtpy or negative</p>`;
+      const self = this;
+      setTimeout(function () {
+        self.budgetFeedback.classList.remove("showItem");
+      }, 4000);
     }
   }
 }
