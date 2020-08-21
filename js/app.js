@@ -17,7 +17,7 @@ class UI {
   }
 
   // Submit budget method
-  submitBudgeForm() {
+  submitBudgetForm() {
     const value = this.budgetInput.value;
     if (value === "" || value < 0) {
       this.budgetFeedback.classList.add("showItem");
@@ -50,5 +50,5 @@ function eventListeners() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  eventListeners;
+  eventListeners();
 });
