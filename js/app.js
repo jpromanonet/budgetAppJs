@@ -19,6 +19,10 @@ class UI {
   // Submit budget method
   submitBudgeForm() {
     const value = this.budgetInput.value;
+    if (value === "" || value < 0) {
+      this.budgetFeedback.classList.add("showItem");
+      this.budgetFeedback.innerHTML = `<p>value cannot be emtpy or negative</p>`;
+    }
   }
 }
 
