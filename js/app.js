@@ -18,7 +18,7 @@ class UI {
 
   // Submit budget method
   submitBudgeForm() {
-    console.log("Hello from ES6");
+    const value = this.budgetInput.value;
   }
 }
 
