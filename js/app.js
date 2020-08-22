@@ -29,6 +29,7 @@ class UI {
     } else {
       this.budgetAmount.textContent = value;
       this.budgetInput.value = "";
+      this.showBalance();
     }
   }
 }
