@@ -36,11 +36,11 @@ class UI {
   // Show balance method
   showBalance() {
     const expense = this.totalExpense();
-    const total = 
+    const total = parseInt(this.budgetAmount.textContent);
   }
 
   // Total expense
-  totalExpense(){
+  totalExpense() {
     let total = 400;
     return total;
   }
