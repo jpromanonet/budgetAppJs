@@ -32,6 +32,9 @@ class UI {
       this.showBalance();
     }
   }
+
+  // Show balance method
+  showBalance() {}
 }
 
 function eventListeners() {
