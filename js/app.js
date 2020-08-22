@@ -28,6 +28,7 @@ class UI {
       }, 4000);
     } else {
       this.budgetAmount.textContent = value;
+      this.budgetInput.value = "";
     }
   }
 }
