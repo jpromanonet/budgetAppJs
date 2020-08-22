@@ -26,6 +26,8 @@ class UI {
       setTimeout(function () {
         self.budgetFeedback.classList.remove("showItem");
       }, 4000);
+    } else {
+      this.budgetAmount.textContent = value;
     }
   }
 }
