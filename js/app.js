@@ -34,7 +34,9 @@ class UI {
   }
 
   // Show balance method
-  showBalance() {}
+  showBalance() {
+    const expense = this.totalExpense();
+  }
 }
 
 function eventListeners() {
