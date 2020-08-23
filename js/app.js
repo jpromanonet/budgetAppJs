@@ -42,8 +42,8 @@ class UI {
       this.balance.classList.remove("showGreen", "showBlack");
       this.balance.classList.add("showRed");
     } else if (total > 0) {
-      this.balance.classList.remove("showGreen", "showBlack");
-      this.balance.classList.add("showRed");
+      this.balance.classList.remove("showRed", "showBlack");
+      this.balance.classList.add("showGreen");
     }
   }
 
