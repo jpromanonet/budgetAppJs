@@ -21,7 +21,7 @@ class UI {
     const value = this.budgetInput.value;
     if (value === "" || value < 0) {
       this.budgetFeedback.classList.add("showItem");
-      this.budgetFeedback.innerHTML = `<p>value cannot be emtpy or negative</p>`;
+      this.budgetFeedback.innerHTML = `<p>No se permiten valores vacios o negativos.</p>`;
       const self = this;
       setTimeout(function () {
         self.budgetFeedback.classList.remove("showItem");
@@ -39,7 +39,7 @@ class UI {
     const amountValue = this.amountInput.value;
     if (expenseValue === "" || amountValue === "" || amountValue < 0) {
       this.expenseFeedback.classList.add("showItem");
-      this.expenseFeedback.innerHTML = `<p>values cannot be empty or negative</p>`;
+      this.expenseFeedback.innerHTML = `<p>No se permiten valores vacios o negativos.</p>`;
       const self = this;
       setTimeout(function () {
         self.expenseFeedback.classList.remove("showItem");
