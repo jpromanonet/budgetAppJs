@@ -37,6 +37,9 @@ class UI {
   submitExpenseForm() {
     const expenseValue = this.expenseInput.value;
     const amountValue = this.amountInput.value;
+    if (expenseValue === "" || amountValue === "" || amountValue < 0) {
+      this.expenseFeedback.classList.add("showItem");
+    }
   }
 
   // Show balance method
