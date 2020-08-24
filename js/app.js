@@ -33,6 +33,12 @@ class UI {
     }
   }
 
+  // Submit Expense Form
+  submitExpenseForm() {
+    const expenseValue = this.expenseInput.value;
+    const amountValue = this.amountInput.value;
+  }
+
   // Show balance method
   showBalance() {
     const expense = this.totalExpense();
