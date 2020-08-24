@@ -74,6 +74,7 @@ function eventListeners() {
   // Expense form submit
   expenseForm.addEventListener("submit", function () {
     event.preventDefault();
+    ui.submitExpenseForm();
   });
 
   // Expense click
