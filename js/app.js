@@ -44,6 +44,10 @@ class UI {
       setTimeout(function () {
         self.expenseFeedback.classList.remove("showItem");
       }, 4000);
+    } else {
+      let amount = parseInt(amountValue);
+      this.expenseInput = "";
+      this.amountInput = "";
     }
   }
 
