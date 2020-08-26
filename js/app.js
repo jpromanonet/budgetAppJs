@@ -51,7 +51,10 @@ class UI {
 
       let expense = {
         id: this.itemID,
+        title: expenseValue,
+        amount: amount,
       };
+      this.itemID++;
     }
   }
 
