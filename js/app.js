@@ -55,7 +55,15 @@ class UI {
         amount: amount,
       };
       this.itemID++;
+      this.itemList.push(expense);
+      this.addExpense(expense);
+      // Show balance!
     }
+  }
+
+  // Add expense
+  addExpense(expense) {
+    const div = document.createElement("div");
   }
 
   // Show balance method
