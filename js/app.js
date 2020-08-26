@@ -64,6 +64,7 @@ class UI {
   // Add expense
   addExpense(expense) {
     const div = document.createElement("div");
+    div.classList.add("expense");
   }
 
   // Show balance method
