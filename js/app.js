@@ -48,6 +48,10 @@ class UI {
       let amount = parseInt(amountValue);
       this.expenseInput = "";
       this.amountInput = "";
+
+      let expense = {
+        id: this.itemID,
+      };
     }
   }
 
