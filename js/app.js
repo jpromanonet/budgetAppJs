@@ -57,7 +57,7 @@ class UI {
       this.itemID++;
       this.itemList.push(expense);
       this.addExpense(expense);
-      // Show balance!
+      this.showBalance();
     }
   }
 
@@ -101,7 +101,11 @@ class UI {
 
   // Total expense
   totalExpense() {
-    let total = 400;
+    let total = 0;
+    if(this.itemList.length > 0){
+
+    }
+    this.expenseAmount.textContent = total;
     return total;
   }
 }
