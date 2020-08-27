@@ -46,8 +46,8 @@ class UI {
       }, 4000);
     } else {
       let amount = parseInt(amountValue);
-      this.expenseInput = "";
-      this.amountInput = "";
+      this.expenseInput.value = "";
+      this.amountInput.value = "";
 
       let expense = {
         id: this.itemID,
@@ -61,7 +61,7 @@ class UI {
     }
   }
 
-  // Add expense
+  // Add expense Method
   addExpense(expense) {
     const div = document.createElement("div");
     div.classList.add("expense");
