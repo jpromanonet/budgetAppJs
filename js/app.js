@@ -134,7 +134,7 @@ function eventListeners() {
   });
 
   // Expense click
-  expenseList.addEventListener("submit", function () {});
+  expenseList.addEventListener("submit", function (event) {});
 }
 
 document.addEventListener("DOMContentLoaded", function () {
