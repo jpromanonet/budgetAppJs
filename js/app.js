@@ -136,6 +136,7 @@ function eventListeners() {
   // Expense click
   expenseList.addEventListener("submit", function (event) {
     if (event.target.parentElement.classList.contains("edit-icon")) {
+    } else if (event.target.parentElement.classList.contains("delete-icon")) {
     }
   });
 }
