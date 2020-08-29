@@ -134,7 +134,10 @@ function eventListeners() {
   });
 
   // Expense click
-  expenseList.addEventListener("submit", function (event) {});
+  expenseList.addEventListener("submit", function (event) {
+    if (event.target.parentElement.classList.contains("edit-icon")) {
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
