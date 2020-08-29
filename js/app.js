@@ -104,6 +104,7 @@ class UI {
     let total = 0;
     if (this.itemList.length > 0) {
       total = this.itemList.reduce(function (acc, curr) {
+        acc += curr.amount;
         return acc;
       }, 0);
     }
